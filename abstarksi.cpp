@@ -17,3 +17,10 @@ public:
         cout << "y = " << y << endl;
     }
 };
+
+int main(){
+    AbstraksiKlas a;
+    a.setXY("Yogyakarta", "Kampus");
+    a.display();
+    return 0;
+}
